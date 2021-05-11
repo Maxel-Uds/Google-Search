@@ -73,6 +73,11 @@ li {
     padding-top: 10px;
 }
 
+#atalhos li:hover {
+    background-color: #f1f3f4;
+    border-radius: 10%;
+}
+
 .atalho1, .atalho2, .atalho3, .atalho4 {
     width: 48px;
     height: 48px;
