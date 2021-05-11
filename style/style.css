@@ -1,0 +1,101 @@
+body, #corpo, #atalhos{
+    display: flex;
+    flex-direction: column;
+}
+
+#topo {
+    text-align: right;
+    height: 70px;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.texto, .logon, .botao {
+    padding: 7px;
+    position: relative;
+    cursor: pointer;
+}
+
+.texto {
+    font-size: 15px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -20px;
+}
+
+.logon {
+    width: 32px;
+    height: 32px;
+    top: 0px;
+}
+
+.botao {
+    background: url('../img/botao.png');
+    height: 15px;
+    width: 15px;
+    top: -7px;
+}
+
+#corpo, #atalhos {
+    align-items: center;
+}
+#corpo {
+    padding-top: 100px;
+}
+
+.logo {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 50px;
+}
+
+.input {
+    width: 561px;
+    height: 44px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 0.4em rgb(189, 186, 186);
+    padding: 1px 44px 1px 52px;
+    font-size: 15px;
+    /*código a ser lembrado. Dois backgrounds no mesmo input*/
+    background: url('../img/mic.svg') no-repeat 97% 50%, url('../img/search.svg') no-repeat 3% 50%;
+}
+
+#atalhos {
+    padding: 15px;
+}
+
+#atalhos li {
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.atalho1, .atalho2, .atalho3, .atalho4 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.atalho1 {
+    background: url('../img/dan.png') no-repeat 50% 50%, #f1f3f4;
+}
+
+.atalho2 {
+    background: url('../img/web.png') no-repeat 50% 50%, #f1f3f4;
+}
+
+.atalho3 {
+    background: url('../img/promilitares.png') no-repeat 50% 50%, #f1f3f4;
+}
+
+.atalho4 {
+    background: url('../img/add.svg') no-repeat 50% 50%, #f1f3f4;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
